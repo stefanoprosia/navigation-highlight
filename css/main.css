@@ -29,10 +29,12 @@ h2 {
 
 main {
   background-color: #fff;
+  margin: .5em;
 }
 
 footer {
   text-align: center;
+  background-color: #ffe500;
 }
 
 a,
@@ -53,13 +55,14 @@ nav a:hover {
   color: #2f2d13;
   font-weight: bold;
   text-decoration: none;
-  background-color: #cc1465;
+  background-color: #b20953;
   text-align: center;
   border-radius: 7px;
 }
 
 .nav .current {
   background-color: #cc1465;
+  color: #fff;
 }
 
 .nav li {
@@ -69,8 +72,19 @@ nav a:hover {
   display: inline-block;
   border-radius: 5px;
   text-align: center;
+  color: #fff;
 }
 
 nav ul {
   text-align: center;
+  color: #fff;
+}
+
+body {
+  font-family: "Georgia";
+  margin: 0;
+}
+
+img {
+  width: 100%;
 }
